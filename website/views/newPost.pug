@@ -1,0 +1,9 @@
+//- the following is populated under section.news__wrapper and below #News
+//- you can test it as CLI by using: pug -O '{"date":"01JAN2010", "description":"this is the description", "url":"a/url/here"}' newPost.pug 
+ 
+.borderize
+    .news__container
+        .news__date #{date}
+        .text__container #{description}
+    .wrapper__link 
+        a.readMore__link(href=url) READ MORE
