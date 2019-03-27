@@ -1,6 +1,3 @@
-// debug=website:* npm run devstart
-// nodemon website
-
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
