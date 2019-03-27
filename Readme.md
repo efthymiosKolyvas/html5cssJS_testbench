@@ -10,6 +10,6 @@ The directory is a repository of things learned:
 ### How to use
 
 1. Update the node modules in the local repository by `npm install`
-2. Run the express server with `nodemon website`
+2. Run the express server with `node ./bin/www`
 
 
